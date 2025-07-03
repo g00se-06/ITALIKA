@@ -1,0 +1,68 @@
+.card {
+  @apply relative;
+  height: 260px;
+  width: 198px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    @apply w-full h-auto;
+  }
+}
+
+.productImage {
+  @apply absolute top-0 left-0;
+  height: 230px;
+  width: 198px;
+}
+
+@media (max-width: 768px) {
+  .productImage {
+    @apply w-full h-auto;
+    aspect-ratio: 198/230;
+  }
+}
+
+.productInfo {
+  @apply absolute left-0 text-sm font-bold text-black;
+  height: 30px;
+  top: 230px;
+  width: 198px;
+}
+
+@media (max-width: 768px) {
+  .productInfo {
+    @apply relative left-0 w-full h-auto;
+    top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.buyButton {
+  @apply absolute text-xs font-bold text-white bg-zinc-600 hover:bg-zinc-700 transition-colors;
+  height: 18px;
+  left: 127px;
+  top: 239px;
+  width: 47px;
+}
+
+@media (max-width: 768px) {
+  .buyButton {
+    @apply relative top-auto left-auto mr-2.5;
+    height: 25px;
+    width: 60px;
+  }
+}
+
+.favoriteButton {
+  @apply absolute hover:opacity-80 transition-opacity;
+  left: 175px;
+  top: 239px;
+  width: 23px;
+  height: 18px;
+}
+
+.favoriteIcon {
+  width: 23px;
+  height: 18px;
+}

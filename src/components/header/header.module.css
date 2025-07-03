@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3.5rem;
+  width: 100%;
+  height: 114px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+  }
+}
+
+.logo {
+  position: relative;
+}
+
+.brandName {
+  position: absolute;
+  top: 3.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #86198f;
+  height: 58px;
+  left: 59px;
+  width: 278px;
+}
+
+@media (max-width: 768px) {
+  .brandName {
+    left: 1.25rem;
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .brandName {
+    position: static;
+    font-size: 1.875rem;
+  }
+}
+
+.iconContainer {
+  position: relative;
+}

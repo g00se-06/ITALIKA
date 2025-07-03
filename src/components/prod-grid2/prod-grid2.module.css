@@ -1,0 +1,32 @@
+.product-grid {
+  position: absolute;
+  left: 145px;
+  top: 252px;
+  width: 1150px;
+}
+
+.product-grid__container {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(5, 198px);
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    left: 20px;
+    top: 180px;
+    width: calc(100% - 40px);
+  }
+
+  .product-grid__container {
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .product-grid__container {
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

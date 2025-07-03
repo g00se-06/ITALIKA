@@ -1,0 +1,126 @@
+.heroSection {
+  display: flex;
+  margin: 1.5rem auto 0;
+  height: 450px;
+  width: 1150px;
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .heroSection {
+    margin-top: 1.25rem;
+  }
+}
+
+.mainBanner {
+  position: relative;
+  height: 450px;
+  width: 778px;
+}
+
+@media (max-width: 768px) {
+  .mainBanner {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .mainBanner {
+    height: 250px;
+  }
+}
+
+.bannerImage {
+  object-fit: cover;
+  height: 450px;
+  width: 778px;
+}
+
+@media (max-width: 768px) {
+  .bannerImage {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .bannerImage {
+    height: 250px;
+  }
+}
+
+.bannerText {
+  position: absolute;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  height: 86px;
+  left: 53px;
+  top: 71px;
+  width: 664px;
+}
+
+@media (max-width: 768px) {
+  .bannerText {
+    width: 80%;
+    font-size: 2.25rem;
+    left: 30px;
+    top: 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  .bannerText {
+    left: 1.25rem;
+    font-size: 1.5rem;
+    top: 30px;
+  }
+}
+
+.sideImages {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .sideImages {
+    flex-direction: row;
+    gap: 1.25rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .sideImages {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+}
+
+.sideImage {
+  height: 225px;
+  width: 372px;
+}
+
+@media (max-width: 768px) {
+  .sideImage {
+    height: 200px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 640px) {
+  .sideImage {
+    width: 100%;
+    height: 150px;
+  }
+}

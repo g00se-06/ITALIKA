@@ -1,0 +1,132 @@
+.footer {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: 2.25rem;
+  margin-top: 1.75rem;
+  width: 100%;
+  background-color: #52525b;
+  height: 195px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding: 2rem 1.25rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 1.25rem;
+  }
+}
+
+.aboutSection {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.5rem;
+  color: white;
+  height: 27px;
+  left: 72px;
+  top: 35px;
+  width: 55px;
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    position: static;
+    margin-bottom: 1.25rem;
+  }
+}
+
+.contactSection {
+  position: absolute;
+  left: 368px;
+  top: 38px;
+}
+
+@media (max-width: 768px) {
+  .contactSection {
+    position: static;
+    margin-bottom: 1.25rem;
+  }
+}
+
+.contactTitle {
+  width: 15rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.5rem;
+  color: white;
+  height: 21px;
+}
+
+@media (max-width: 640px) {
+  .contactTitle {
+    font-size: 0.875rem;
+  }
+}
+
+.contactPhone {
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.5rem;
+  color: white;
+  height: 21px;
+  width: 138px;
+}
+
+@media (max-width: 640px) {
+  .contactPhone {
+    font-size: 0.875rem;
+  }
+}
+
+.contactEmail {
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.5rem;
+  color: white;
+  height: 22px;
+  width: 173px;
+}
+
+@media (max-width: 640px) {
+  .contactEmail {
+    font-size: 0.875rem;
+  }
+}
+
+.socialSection {
+  position: absolute;
+  width: 14rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.5rem;
+  color: white;
+  height: 35px;
+  right: 159px;
+  top: 31px;
+}
+
+@media (max-width: 768px) {
+  .socialSection {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .socialSection {
+    font-size: 0.875rem;
+  }
+}

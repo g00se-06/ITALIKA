@@ -1,0 +1,25 @@
+.product-grid {
+  display: grid;
+  gap: 2.5rem;
+  margin: 0 9rem;
+  grid-template-columns: repeat(5, 198px);
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  .product-grid {
+    gap: 2rem;
+    margin: 0 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: calc(100% - 60px);
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 640px) {
+  .product-grid {
+    gap: 1.25rem;
+    margin: 0 1.25rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
