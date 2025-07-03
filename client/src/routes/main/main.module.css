@@ -1,0 +1,39 @@
+.homePage {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  min-height: 1959px;
+}
+
+@media (max-width: 768px) {
+  .homePage {
+    padding: 0 1.25rem;
+  }
+}
+
+.headerLine {
+  position: relative;
+}
+
+.description {
+  margin: 3rem auto 0;
+  font-size: 1.25rem;
+  color: black;
+  height: 336px;
+  width: 1150px;
+}
+
+@media (max-width: 768px) {
+  .description {
+    margin: 2rem auto 0;
+    width: 100%;
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
